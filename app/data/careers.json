@@ -1,0 +1,1267 @@
+[
+  {
+    "id": "career-01",
+    "title": "Software Engineer",
+    "cluster": "Technology",
+    "summary": "Building applications, problem solving, debugging, and shipping products.",
+    "fit": "People who enjoy coding, logic, building things",
+    "skills": [
+      "Python or JavaScript",
+      "data structures",
+      "Git",
+      "APIs",
+      "testing"
+    ],
+    "education": "A CS/IT degree can help; demonstrable coding projects are valuable.",
+    "roadmap": [
+      "Choose one language and write small programs",
+      "Build a full-stack CRUD project",
+      "Learn Git and deploy one project"
+    ],
+    "growth": "Developer → senior engineer → tech lead or architect",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "python or javascript",
+      "data structures",
+      "git",
+      "apis",
+      "testing",
+      "software",
+      "engineer"
+    ]
+  },
+  {
+    "id": "career-02",
+    "title": "AI / Machine Learning Engineer",
+    "cluster": "Technology",
+    "summary": "Building systems that learn from data, deploy models, and measure real-world performance.",
+    "fit": "Students interested in programming, statistics, and experimentation",
+    "skills": [
+      "Python",
+      "pandas",
+      "scikit-learn",
+      "statistics",
+      "model evaluation",
+      "MLOps"
+    ],
+    "education": "CS, maths or related coursework helps; a substantial ML portfolio matters.",
+    "roadmap": [
+      "Learn Python and data analysis",
+      "Train, compare, and evaluate simple models",
+      "Publish an end-to-end prediction API"
+    ],
+    "growth": "Junior ML engineer → ML engineer → ML platform or lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "python",
+      "pandas",
+      "scikit-learn",
+      "statistics",
+      "model evaluation",
+      "mlops",
+      "ai",
+      "/",
+      "machine",
+      "learning",
+      "engineer"
+    ]
+  },
+  {
+    "id": "career-03",
+    "title": "Generative AI Engineer",
+    "cluster": "Technology",
+    "summary": "Creating applications using LLM APIs, retrieval, tool use, and evaluation.",
+    "fit": "Builders who enjoy coding and language-based AI products",
+    "skills": [
+      "Python",
+      "LLM APIs",
+      "RAG",
+      "prompt engineering",
+      "evaluation",
+      "FastAPI"
+    ],
+    "education": "Programming fundamentals and applied AI project experience are recommended.",
+    "roadmap": [
+      "Build a document Q&A app",
+      "Add retrieved evidence and evaluation",
+      "Deploy with API key security and rate limits"
+    ],
+    "growth": "AI app developer → GenAI engineer → AI systems lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "python",
+      "llm apis",
+      "rag",
+      "prompt engineering",
+      "evaluation",
+      "fastapi",
+      "generative",
+      "ai",
+      "engineer"
+    ]
+  },
+  {
+    "id": "career-04",
+    "title": "Cybersecurity Analyst",
+    "cluster": "Technology",
+    "summary": "Monitoring alerts, investigating suspicious activity, and improving security controls.",
+    "fit": "Curious investigators who like puzzles, systems, and risk",
+    "skills": [
+      "networking",
+      "Linux",
+      "security logs",
+      "SIEM",
+      "incident response"
+    ],
+    "education": "A technical degree, labs, or entry-level certifications may help; roles vary.",
+    "roadmap": [
+      "Learn networking and Linux",
+      "Practice blue-team labs legally",
+      "Document three incident investigation exercises"
+    ],
+    "growth": "SOC analyst → incident responder → security engineer",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "networking",
+      "linux",
+      "security logs",
+      "siem",
+      "incident response",
+      "cybersecurity",
+      "analyst"
+    ]
+  },
+  {
+    "id": "career-05",
+    "title": "Data Analyst",
+    "cluster": "Data & Business",
+    "summary": "Turning raw data into charts, reports and business decisions.",
+    "fit": "Analytical thinkers who like numbers and storytelling",
+    "skills": [
+      "Excel",
+      "SQL",
+      "Power BI",
+      "Python basics",
+      "data visualization"
+    ],
+    "education": "Many educational backgrounds qualify; projects demonstrating business insight help.",
+    "roadmap": [
+      "Master spreadsheets and SQL",
+      "Clean and visualize a public dataset",
+      "Write a one-page insight report"
+    ],
+    "growth": "Data analyst → senior analyst → analytics lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "excel",
+      "sql",
+      "power bi",
+      "python basics",
+      "data visualization",
+      "data",
+      "analyst"
+    ]
+  },
+  {
+    "id": "career-06",
+    "title": "Business Analyst",
+    "cluster": "Data & Business",
+    "summary": "Understanding business problems, mapping requirements, and coordinating solutions.",
+    "fit": "Strong communicators who enjoy structured problem-solving with limited coding",
+    "skills": [
+      "Excel",
+      "SQL basics",
+      "stakeholder interviews",
+      "requirements writing",
+      "process mapping"
+    ],
+    "education": "Business, commerce or technology degrees can help; practical case studies are useful.",
+    "roadmap": [
+      "Learn process mapping",
+      "Write requirements for a sample app",
+      "Create a dashboard and explain its business value"
+    ],
+    "growth": "Business analyst → senior BA → product or business lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "excel",
+      "sql basics",
+      "stakeholder interviews",
+      "requirements writing",
+      "process mapping",
+      "business",
+      "analyst"
+    ]
+  },
+  {
+    "id": "career-07",
+    "title": "Product Manager",
+    "cluster": "Data & Business",
+    "summary": "Selecting which customer problems to solve, setting product priorities, and collaborating with teams.",
+    "fit": "People who enjoy products, research, decision-making, and teamwork more than daily coding",
+    "skills": [
+      "user research",
+      "prioritization",
+      "product analytics",
+      "roadmaps",
+      "communication"
+    ],
+    "education": "There is no universal degree; junior and associate positions are competitive.",
+    "roadmap": [
+      "Analyze a product problem",
+      "Write a product requirements document",
+      "Create a simple roadmap backed by user interviews"
+    ],
+    "growth": "Associate PM → PM → senior PM → head of product",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "user research",
+      "prioritization",
+      "product analytics",
+      "roadmaps",
+      "communication",
+      "product",
+      "manager"
+    ]
+  },
+  {
+    "id": "career-08",
+    "title": "UX / UI Designer",
+    "cluster": "Design & Creative",
+    "summary": "Researching users and designing usable digital experiences and interfaces.",
+    "fit": "Creative, empathetic people who enjoy solving usability problems without much coding",
+    "skills": [
+      "Figma",
+      "user flows",
+      "wireframing",
+      "prototyping",
+      "accessibility"
+    ],
+    "education": "Design education can help; an evidence-based portfolio often matters significantly.",
+    "roadmap": [
+      "Study usable layouts and accessibility",
+      "Redesign one real app flow in Figma",
+      "Test a prototype with five volunteers"
+    ],
+    "growth": "Junior designer → product designer → design lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "figma",
+      "user flows",
+      "wireframing",
+      "prototyping",
+      "accessibility",
+      "ux",
+      "/",
+      "ui",
+      "designer"
+    ]
+  },
+  {
+    "id": "career-09",
+    "title": "Graphic Designer",
+    "cluster": "Design & Creative",
+    "summary": "Designing visual identities, layouts, social graphics, and print or digital assets.",
+    "fit": "Visually creative students who enjoy typography, branding, and imagery",
+    "skills": [
+      "typography",
+      "layout",
+      "Illustrator or alternatives",
+      "branding",
+      "feedback"
+    ],
+    "education": "Formal design study helps but strong portfolio work can also demonstrate ability.",
+    "roadmap": [
+      "Learn visual hierarchy and typography",
+      "Create a three-piece brand identity",
+      "Build a concise portfolio with rationale"
+    ],
+    "growth": "Designer → senior designer → art director",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "typography",
+      "layout",
+      "illustrator or alternatives",
+      "branding",
+      "feedback",
+      "graphic",
+      "designer"
+    ]
+  },
+  {
+    "id": "career-10",
+    "title": "Video Editor",
+    "cluster": "Design & Creative",
+    "summary": "Transforming raw footage into polished stories for brands, film, education and social video.",
+    "fit": "Students who enjoy storytelling, pacing, and creative software",
+    "skills": [
+      "editing software",
+      "audio",
+      "color correction",
+      "storytelling",
+      "motion graphics"
+    ],
+    "education": "Portfolio and editing reels are key; credentials vary by employer.",
+    "roadmap": [
+      "Master a free editing tool",
+      "Create three short edits with different styles",
+      "Publish a before-and-after reel"
+    ],
+    "growth": "Assistant editor → editor → senior editor or post-production lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "editing software",
+      "audio",
+      "color correction",
+      "storytelling",
+      "motion graphics",
+      "video",
+      "editor"
+    ]
+  },
+  {
+    "id": "career-11",
+    "title": "Digital Marketer",
+    "cluster": "Marketing & Content",
+    "summary": "Running campaigns, measuring performance, and communicating brand messages online.",
+    "fit": "Creative and analytical people who enjoy business and consumer behavior",
+    "skills": [
+      "SEO",
+      "campaign analytics",
+      "copywriting",
+      "content strategy",
+      "experimentation"
+    ],
+    "education": "Degrees vary; practical campaigns and measurable case studies help.",
+    "roadmap": [
+      "Learn SEO and analytics basics",
+      "Design a small mock campaign",
+      "Measure results and write a lessons-learned report"
+    ],
+    "growth": "Marketing executive → growth marketer → marketing manager",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "seo",
+      "campaign analytics",
+      "copywriting",
+      "content strategy",
+      "experimentation",
+      "digital",
+      "marketer"
+    ]
+  },
+  {
+    "id": "career-12",
+    "title": "Content Writer / Strategist",
+    "cluster": "Marketing & Content",
+    "summary": "Planning and writing helpful content for websites, campaigns and educational products.",
+    "fit": "Strong writers who enjoy research, communication, and teaching",
+    "skills": [
+      "writing",
+      "research",
+      "SEO basics",
+      "editing",
+      "content planning"
+    ],
+    "education": "No single mandatory degree; writing samples and subject knowledge help.",
+    "roadmap": [
+      "Choose a subject niche",
+      "Write five polished samples",
+      "Create a content calendar with target audience and goals"
+    ],
+    "growth": "Writer → content strategist → editorial lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "writing",
+      "research",
+      "seo basics",
+      "editing",
+      "content planning",
+      "content",
+      "writer",
+      "/",
+      "strategist"
+    ]
+  },
+  {
+    "id": "career-13",
+    "title": "Technical Writer",
+    "cluster": "Marketing & Content",
+    "summary": "Making software documentation, tutorials, and technical concepts easy to understand.",
+    "fit": "People who like technology and clear writing but prefer less daily coding",
+    "skills": [
+      "documentation",
+      "Markdown",
+      "APIs basics",
+      "information architecture",
+      "editing"
+    ],
+    "education": "Technical understanding and clear writing samples often matter more than one fixed degree.",
+    "roadmap": [
+      "Document a small open-source project",
+      "Write an API quick-start guide",
+      "Ask users to test your instructions"
+    ],
+    "growth": "Technical writer → senior writer → documentation lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "documentation",
+      "markdown",
+      "apis basics",
+      "information architecture",
+      "editing",
+      "technical",
+      "writer"
+    ]
+  },
+  {
+    "id": "career-14",
+    "title": "Cloud Engineer",
+    "cluster": "Technology",
+    "summary": "Building reliable cloud infrastructure, services, networking, and automation.",
+    "fit": "Technical students interested in servers, networking and operations",
+    "skills": [
+      "Linux",
+      "networking",
+      "AWS or Azure",
+      "Docker",
+      "infrastructure as code"
+    ],
+    "education": "CS/IT background can help; hands-on infrastructure labs are important.",
+    "roadmap": [
+      "Learn Linux and networking",
+      "Deploy a small free-tier app responsibly",
+      "Add monitoring and a basic CI/CD pipeline"
+    ],
+    "growth": "Cloud associate → cloud engineer → solutions architect",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "linux",
+      "networking",
+      "aws or azure",
+      "docker",
+      "infrastructure as code",
+      "cloud",
+      "engineer"
+    ]
+  },
+  {
+    "id": "career-15",
+    "title": "DevOps Engineer",
+    "cluster": "Technology",
+    "summary": "Automating builds, deployments, observability, and reliable software delivery.",
+    "fit": "Problem solvers interested in coding plus system operations",
+    "skills": [
+      "Git",
+      "Linux",
+      "CI/CD",
+      "Docker",
+      "monitoring"
+    ],
+    "education": "Technology education is useful; hands-on systems experience is valuable.",
+    "roadmap": [
+      "Containerize a simple app",
+      "Create a CI pipeline",
+      "Deploy and monitor a service"
+    ],
+    "growth": "DevOps associate → platform engineer → SRE or lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "git",
+      "linux",
+      "ci/cd",
+      "docker",
+      "monitoring",
+      "devops",
+      "engineer"
+    ]
+  },
+  {
+    "id": "career-16",
+    "title": "QA / Software Tester",
+    "cluster": "Technology",
+    "summary": "Checking product quality through exploratory, functional and automated tests.",
+    "fit": "Detail-oriented people who like finding bugs and improving software",
+    "skills": [
+      "test cases",
+      "bug reporting",
+      "API testing",
+      "automation basics",
+      "attention to detail"
+    ],
+    "education": "Technical education may help; practical test projects can demonstrate ability.",
+    "roadmap": [
+      "Write manual test cases for an app",
+      "Test an API with Postman",
+      "Automate a few critical flows"
+    ],
+    "growth": "QA tester → automation engineer → QA lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "test cases",
+      "bug reporting",
+      "api testing",
+      "automation basics",
+      "attention to detail",
+      "qa",
+      "/",
+      "software",
+      "tester"
+    ]
+  },
+  {
+    "id": "career-17",
+    "title": "IT Support Specialist",
+    "cluster": "Technology",
+    "summary": "Helping users troubleshoot devices, software, identity, and connectivity.",
+    "fit": "Patient problem-solvers who enjoy practical troubleshooting",
+    "skills": [
+      "Windows and Linux basics",
+      "networking basics",
+      "ticketing",
+      "customer communication",
+      "diagnostics"
+    ],
+    "education": "Entry routes include diplomas, degrees and relevant IT training.",
+    "roadmap": [
+      "Practice device and network troubleshooting",
+      "Learn a standard ticket workflow",
+      "Build a personal troubleshooting knowledge base"
+    ],
+    "growth": "Helpdesk → system administrator → IT operations",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "windows and linux basics",
+      "networking basics",
+      "ticketing",
+      "customer communication",
+      "diagnostics",
+      "it",
+      "support",
+      "specialist"
+    ]
+  },
+  {
+    "id": "career-18",
+    "title": "Network Engineer",
+    "cluster": "Technology",
+    "summary": "Planning and supporting networks that connect users, servers and cloud systems.",
+    "fit": "Technical thinkers who enjoy systems and troubleshooting",
+    "skills": [
+      "TCP/IP",
+      "routing",
+      "switching",
+      "firewalls",
+      "network monitoring"
+    ],
+    "education": "IT/CS education or recognized networking qualifications can help.",
+    "roadmap": [
+      "Learn OSI and TCP/IP",
+      "Simulate small networks",
+      "Document a secure office network"
+    ],
+    "growth": "Network technician → network engineer → network architect",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "tcp/ip",
+      "routing",
+      "switching",
+      "firewalls",
+      "network monitoring",
+      "network",
+      "engineer"
+    ]
+  },
+  {
+    "id": "career-19",
+    "title": "Database Administrator",
+    "cluster": "Technology",
+    "summary": "Keeping databases secure, available, backed up and performant.",
+    "fit": "Detail-oriented technical students who like structured data and operations",
+    "skills": [
+      "SQL",
+      "backups",
+      "indexes",
+      "performance",
+      "access control"
+    ],
+    "education": "IT/CS background can help; database practice is valuable.",
+    "roadmap": [
+      "Build a relational database",
+      "Practice backups and restore",
+      "Analyze and improve slow queries"
+    ],
+    "growth": "DB associate → DBA → database architect",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "sql",
+      "backups",
+      "indexes",
+      "performance",
+      "access control",
+      "database",
+      "administrator"
+    ]
+  },
+  {
+    "id": "career-20",
+    "title": "Financial Analyst",
+    "cluster": "Finance & Commerce",
+    "summary": "Analyzing financial performance, budgets and business investments.",
+    "fit": "People who enjoy finance, spreadsheets and quantitative decisions",
+    "skills": [
+      "Excel",
+      "financial statements",
+      "forecasting",
+      "presentation",
+      "business reasoning"
+    ],
+    "education": "Commerce, finance, economics or quantitative study is often helpful.",
+    "roadmap": [
+      "Learn income statements and cash flow",
+      "Build a basic financial model",
+      "Present a short company analysis"
+    ],
+    "growth": "Financial analyst → senior analyst → finance manager",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "excel",
+      "financial statements",
+      "forecasting",
+      "presentation",
+      "business reasoning",
+      "financial",
+      "analyst"
+    ]
+  },
+  {
+    "id": "career-21",
+    "title": "Accountant",
+    "cluster": "Finance & Commerce",
+    "summary": "Maintaining financial records, reconciling accounts, and preparing compliant reporting.",
+    "fit": "Organized students interested in numbers, accuracy, and financial rules",
+    "skills": [
+      "bookkeeping",
+      "spreadsheets",
+      "tax basics",
+      "accounting software",
+      "reconciliation"
+    ],
+    "education": "Eligibility and professional designations vary by country and role; verify requirements.",
+    "roadmap": [
+      "Learn double-entry bookkeeping",
+      "Practice a mock monthly close",
+      "Learn common accounting software"
+    ],
+    "growth": "Accounts assistant → accountant → finance controller",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "bookkeeping",
+      "spreadsheets",
+      "tax basics",
+      "accounting software",
+      "reconciliation",
+      "accountant"
+    ]
+  },
+  {
+    "id": "career-22",
+    "title": "Entrepreneur / Startup Founder",
+    "cluster": "Business & People",
+    "summary": "Finding a real customer problem, testing solutions, and operating a new venture.",
+    "fit": "Independent people comfortable with uncertainty, experimentation and sales",
+    "skills": [
+      "customer research",
+      "budgeting",
+      "sales",
+      "product iteration",
+      "operations"
+    ],
+    "education": "No universal degree; real customer validation and responsible financial planning are critical.",
+    "roadmap": [
+      "Interview 10 possible customers",
+      "Test a small low-cost offer",
+      "Track revenue, cost and customer feedback"
+    ],
+    "growth": "Founder → team builder → scaled business or multiple ventures",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "customer research",
+      "budgeting",
+      "sales",
+      "product iteration",
+      "operations",
+      "entrepreneur",
+      "/",
+      "startup",
+      "founder"
+    ]
+  },
+  {
+    "id": "career-23",
+    "title": "Human Resources Specialist",
+    "cluster": "Business & People",
+    "summary": "Hiring, employee support, workplace policies, and people operations.",
+    "fit": "Students who like communication, coordination and resolving people-related problems",
+    "skills": [
+      "interviewing",
+      "HR operations",
+      "spreadsheets",
+      "communication",
+      "employment law awareness"
+    ],
+    "education": "Business, psychology or related study can help; requirements vary.",
+    "roadmap": [
+      "Study hiring and onboarding workflows",
+      "Design a sample interview scorecard",
+      "Practice professional employee communication"
+    ],
+    "growth": "HR coordinator → HR generalist → HR manager",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "interviewing",
+      "hr operations",
+      "spreadsheets",
+      "communication",
+      "employment law awareness",
+      "human",
+      "resources",
+      "specialist"
+    ]
+  },
+  {
+    "id": "career-24",
+    "title": "Operations Manager",
+    "cluster": "Business & People",
+    "summary": "Coordinating processes, teams and services to improve efficiency and customer outcomes.",
+    "fit": "Practical organizers who enjoy solving workflow problems",
+    "skills": [
+      "process improvement",
+      "Excel",
+      "communication",
+      "planning",
+      "KPI tracking"
+    ],
+    "education": "Relevant degree or operational experience is commonly useful.",
+    "roadmap": [
+      "Map a workflow and its bottlenecks",
+      "Create a basic operations dashboard",
+      "Propose and measure one improvement"
+    ],
+    "growth": "Operations associate → team lead → operations manager",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "process improvement",
+      "excel",
+      "communication",
+      "planning",
+      "kpi tracking",
+      "operations",
+      "manager"
+    ]
+  },
+  {
+    "id": "career-25",
+    "title": "Sales / Business Development",
+    "cluster": "Business & People",
+    "summary": "Finding customer needs, building relationships, and explaining product value.",
+    "fit": "Confident communicators who like networking and targets",
+    "skills": [
+      "communication",
+      "prospecting",
+      "CRM",
+      "negotiation",
+      "customer discovery"
+    ],
+    "education": "Many entry routes are open to different degrees; communication and results matter.",
+    "roadmap": [
+      "Choose a product and buyer persona",
+      "Practice a discovery call",
+      "Track outreach and learn from feedback"
+    ],
+    "growth": "Sales associate → account executive → sales manager",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "communication",
+      "prospecting",
+      "crm",
+      "negotiation",
+      "customer discovery",
+      "sales",
+      "/",
+      "business",
+      "development"
+    ]
+  },
+  {
+    "id": "career-26",
+    "title": "Teacher / Educator",
+    "cluster": "Education & Service",
+    "summary": "Helping learners understand topics, plan lessons, and track progress.",
+    "fit": "Patient people who enjoy mentoring and explanation",
+    "skills": [
+      "subject knowledge",
+      "lesson planning",
+      "assessment",
+      "communication",
+      "classroom management"
+    ],
+    "education": "School teaching may require specific degrees, training and licenses; verify local rules.",
+    "roadmap": [
+      "Volunteer to tutor a subject",
+      "Create a lesson plan",
+      "Collect learner feedback and improve"
+    ],
+    "growth": "Tutor or assistant → teacher → academic coordinator",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "subject knowledge",
+      "lesson planning",
+      "assessment",
+      "communication",
+      "classroom management",
+      "teacher",
+      "/",
+      "educator"
+    ]
+  },
+  {
+    "id": "career-27",
+    "title": "Career Counselor",
+    "cluster": "Education & Service",
+    "summary": "Helping people explore interests, options, courses, and realistic career decisions.",
+    "fit": "Empathetic listeners who enjoy research, mentoring and education",
+    "skills": [
+      "active listening",
+      "career research",
+      "ethical guidance",
+      "assessment basics",
+      "communication"
+    ],
+    "education": "Formal counseling credentials may be required for some settings; confirm applicable standards.",
+    "roadmap": [
+      "Learn counseling ethics",
+      "Practice non-directive exploratory questions",
+      "Create a sourced career guidance resource"
+    ],
+    "growth": "Career advisor → career counselor → education consultant",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "active listening",
+      "career research",
+      "ethical guidance",
+      "assessment basics",
+      "communication",
+      "career",
+      "counselor"
+    ]
+  },
+  {
+    "id": "career-28",
+    "title": "Psychologist",
+    "cluster": "Education & Service",
+    "summary": "Studying and supporting human behavior, learning and mental wellbeing.",
+    "fit": "Students interested in psychology, evidence and human support",
+    "skills": [
+      "psychology fundamentals",
+      "research",
+      "ethical practice",
+      "statistics",
+      "listening"
+    ],
+    "education": "Clinical/regulated roles usually require accredited training and licensing; check jurisdiction.",
+    "roadmap": [
+      "Study introductory psychology",
+      "Learn research methods and ethics",
+      "Investigate recognized qualification paths"
+    ],
+    "growth": "Research or assistant roles → postgraduate specialization → eligible professional roles",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "psychology fundamentals",
+      "research",
+      "ethical practice",
+      "statistics",
+      "listening",
+      "psychologist"
+    ]
+  },
+  {
+    "id": "career-29",
+    "title": "Nurse",
+    "cluster": "Health & Science",
+    "summary": "Providing patient care, monitoring, education and coordination in clinical settings.",
+    "fit": "People who care about healthcare, science and hands-on patient support",
+    "skills": [
+      "biology",
+      "clinical communication",
+      "patient safety",
+      "teamwork",
+      "observation"
+    ],
+    "education": "Nursing requires recognized education, registration and clinical training under local rules.",
+    "roadmap": [
+      "Review approved nursing programs",
+      "Understand biology and patient safety basics",
+      "Verify admission and registration requirements"
+    ],
+    "growth": "Registered nurse → senior nurse → specialty or management",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "biology",
+      "clinical communication",
+      "patient safety",
+      "teamwork",
+      "observation",
+      "nurse"
+    ]
+  },
+  {
+    "id": "career-30",
+    "title": "Physiotherapist",
+    "cluster": "Health & Science",
+    "summary": "Helping people restore and maintain movement through assessed exercise and rehabilitation.",
+    "fit": "Students interested in biology, physical movement and patient care",
+    "skills": [
+      "anatomy",
+      "communication",
+      "exercise planning",
+      "assessment",
+      "ethics"
+    ],
+    "education": "Professional physiotherapy education, supervised training and any required registration are essential.",
+    "roadmap": [
+      "Review accredited programs",
+      "Study foundational biology and anatomy",
+      "Check local registration requirements"
+    ],
+    "growth": "Physiotherapist → specialist → clinic lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "anatomy",
+      "communication",
+      "exercise planning",
+      "assessment",
+      "ethics",
+      "physiotherapist"
+    ]
+  },
+  {
+    "id": "career-31",
+    "title": "Biomedical Researcher",
+    "cluster": "Health & Science",
+    "summary": "Studying biological systems and medical questions using experiments and data.",
+    "fit": "Curious science students who enjoy labs, evidence and experimentation",
+    "skills": [
+      "biology",
+      "statistics",
+      "research methods",
+      "lab safety",
+      "scientific writing"
+    ],
+    "education": "Relevant science degrees are typical; advanced research often requires postgraduate study.",
+    "roadmap": [
+      "Explore basic biology methods",
+      "Read and summarize one research paper",
+      "Join a supervised research or lab project"
+    ],
+    "growth": "Research assistant → researcher → research lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "biology",
+      "statistics",
+      "research methods",
+      "lab safety",
+      "scientific writing",
+      "biomedical",
+      "researcher"
+    ]
+  },
+  {
+    "id": "career-32",
+    "title": "Civil Engineer",
+    "cluster": "Engineering & Skilled",
+    "summary": "Planning and helping build infrastructure such as roads, buildings and water systems.",
+    "fit": "Students who enjoy physics, maths, fieldwork, and construction",
+    "skills": [
+      "mathematics",
+      "CAD",
+      "materials",
+      "project planning",
+      "site safety"
+    ],
+    "education": "Recognized civil engineering qualifications may be required for regulated work.",
+    "roadmap": [
+      "Study engineering fundamentals",
+      "Learn basic CAD",
+      "Explore supervised field or design experience"
+    ],
+    "growth": "Junior engineer → site/design engineer → project manager",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "mathematics",
+      "cad",
+      "materials",
+      "project planning",
+      "site safety",
+      "civil",
+      "engineer"
+    ]
+  },
+  {
+    "id": "career-33",
+    "title": "Mechanical Engineer",
+    "cluster": "Engineering & Skilled",
+    "summary": "Designing, testing, and improving mechanical systems and physical products.",
+    "fit": "People interested in mechanics, design, physics and manufacturing",
+    "skills": [
+      "CAD",
+      "mechanics",
+      "materials",
+      "testing",
+      "problem solving"
+    ],
+    "education": "Relevant engineering education is commonly required.",
+    "roadmap": [
+      "Learn fundamentals of mechanics",
+      "Design a basic CAD assembly",
+      "Document a small prototyping exercise"
+    ],
+    "growth": "Graduate engineer → design engineer → technical lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "cad",
+      "mechanics",
+      "materials",
+      "testing",
+      "problem solving",
+      "mechanical",
+      "engineer"
+    ]
+  },
+  {
+    "id": "career-34",
+    "title": "Electrician / Electrical Technician",
+    "cluster": "Engineering & Skilled",
+    "summary": "Installing, maintaining and troubleshooting electrical systems with safety procedures.",
+    "fit": "Hands-on people who like practical problem solving",
+    "skills": [
+      "electrical safety",
+      "circuit basics",
+      "tools",
+      "diagnostics",
+      "regulations"
+    ],
+    "education": "Approved vocational training, apprenticeships, and local licensing may be required.",
+    "roadmap": [
+      "Review approved vocational routes",
+      "Study electrical safety",
+      "Seek supervised practical training"
+    ],
+    "growth": "Apprentice → certified technician → supervisor",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "electrical safety",
+      "circuit basics",
+      "tools",
+      "diagnostics",
+      "regulations",
+      "electrician",
+      "/",
+      "electrical",
+      "technician"
+    ]
+  },
+  {
+    "id": "career-35",
+    "title": "Logistics / Supply Chain Analyst",
+    "cluster": "Business & People",
+    "summary": "Improving purchasing, inventory, transport and delivery operations.",
+    "fit": "Organized analysts who enjoy process improvement and data",
+    "skills": [
+      "Excel",
+      "inventory",
+      "forecasting",
+      "process mapping",
+      "logistics KPIs"
+    ],
+    "education": "Business, engineering, operations or analytics studies can help.",
+    "roadmap": [
+      "Learn inventory basics",
+      "Analyze mock logistics data",
+      "Create an improvement plan for delivery times"
+    ],
+    "growth": "Supply chain associate → analyst → operations lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "excel",
+      "inventory",
+      "forecasting",
+      "process mapping",
+      "logistics kpis",
+      "logistics",
+      "/",
+      "supply",
+      "chain",
+      "analyst"
+    ]
+  },
+  {
+    "id": "career-36",
+    "title": "Lawyer",
+    "cluster": "Law & Public Service",
+    "summary": "Advising on legal matters, drafting documents, and representing clients as qualified.",
+    "fit": "Students who enjoy critical reading, argument and public issues",
+    "skills": [
+      "research",
+      "writing",
+      "reasoning",
+      "ethics",
+      "oral communication"
+    ],
+    "education": "Legal practice requires recognized law education and applicable bar enrollment or licensing.",
+    "roadmap": [
+      "Review accredited legal education paths",
+      "Practice researching a legal issue",
+      "Explore legal aid volunteering opportunities"
+    ],
+    "growth": "Law graduate → licensed practitioner → specialist or partner",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "research",
+      "writing",
+      "reasoning",
+      "ethics",
+      "oral communication",
+      "lawyer"
+    ]
+  },
+  {
+    "id": "career-37",
+    "title": "Civil Services / Public Administration",
+    "cluster": "Law & Public Service",
+    "summary": "Supporting public programs, administration and policy implementation.",
+    "fit": "Students motivated by public service, policy and community problems",
+    "skills": [
+      "general studies",
+      "writing",
+      "policy analysis",
+      "communication",
+      "administration"
+    ],
+    "education": "Eligibility varies by examination, country, age and education; verify current official notices.",
+    "roadmap": [
+      "Read the current official exam notification",
+      "Review syllabus and previous papers",
+      "Create a sustainable study plan"
+    ],
+    "growth": "Public administration officer → specialist roles → leadership",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "general studies",
+      "writing",
+      "policy analysis",
+      "communication",
+      "administration",
+      "civil",
+      "services",
+      "/",
+      "public",
+      "administration"
+    ]
+  },
+  {
+    "id": "career-38",
+    "title": "Game Designer",
+    "cluster": "Design & Creative",
+    "summary": "Designing gameplay, levels, systems and player experience in games.",
+    "fit": "Creative people who enjoy games, psychology and prototyping",
+    "skills": [
+      "game mechanics",
+      "prototyping",
+      "player research",
+      "documentation",
+      "iteration"
+    ],
+    "education": "No single required degree; a playable portfolio is important.",
+    "roadmap": [
+      "Analyze a favorite game's systems",
+      "Prototype a small game with free tools",
+      "Playtest and revise using feedback"
+    ],
+    "growth": "Junior game designer → game designer → lead designer",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "game mechanics",
+      "prototyping",
+      "player research",
+      "documentation",
+      "iteration",
+      "game",
+      "designer"
+    ]
+  },
+  {
+    "id": "career-39",
+    "title": "Data Scientist",
+    "cluster": "Data & Business",
+    "summary": "Using statistical analysis, experiments and predictive models to answer complex questions.",
+    "fit": "People who like programming, statistics and problem-solving",
+    "skills": [
+      "Python",
+      "statistics",
+      "SQL",
+      "machine learning",
+      "communication"
+    ],
+    "education": "Quantitative degrees can help; strong applied projects and statistics foundations are valuable.",
+    "roadmap": [
+      "Learn SQL and probability",
+      "Complete an analysis with a baseline model",
+      "Explain findings and limitations to a nontechnical reader"
+    ],
+    "growth": "Data scientist → senior scientist → analytics/ML lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "python",
+      "statistics",
+      "sql",
+      "machine learning",
+      "communication",
+      "data",
+      "scientist"
+    ]
+  },
+  {
+    "id": "career-40",
+    "title": "Research Scientist (AI)",
+    "cluster": "Technology",
+    "summary": "Studying novel machine learning methods and testing them through rigorous experiments.",
+    "fit": "Students who enjoy deep maths, papers and experiments",
+    "skills": [
+      "linear algebra",
+      "probability",
+      "PyTorch",
+      "research methods",
+      "academic writing"
+    ],
+    "education": "Advanced degree or strong publications are common in research-oriented positions.",
+    "roadmap": [
+      "Strengthen maths and ML theory",
+      "Reproduce a published experiment",
+      "Write a clear report of results and limitations"
+    ],
+    "growth": "Research assistant → research scientist → research lead",
+    "cautions": "Career fit depends on the person and market. Verify admissions, job postings, and local regulations before deciding.",
+    "keywords": [
+      "linear algebra",
+      "probability",
+      "pytorch",
+      "research methods",
+      "academic writing",
+      "research",
+      "scientist",
+      "(ai)"
+    ]
+  }
+]

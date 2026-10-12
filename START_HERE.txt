@@ -1,0 +1,48 @@
+AURA CAREERVOICE - QUICK START (WINDOWS 10 / 11)
+============================================
+
+1) Extract Aura_CareerVoice_ChatUI.zip to E:\MinuteHire_CareerVoice
+2) Open PowerShell in that extracted folder.
+3) Run exactly:
+
+   powershell -ExecutionPolicy Bypass -File .\start-windows.ps1
+
+4) Open in Chrome / Edge:
+   http://127.0.0.1:8000
+
+You can test WITHOUT an API key: the app will show Knowledge demo.
+The demo is knowledge-based but is NOT a real LLM.
+
+TO ACTIVATE THE LLM FOR THE ASSESSMENT:
+- Get a Gemini API key (subject to free-tier eligibility): https://aistudio.google.com/apikey
+- Edit the .env file and set GEMINI_API_KEY=YOUR_REAL_KEY
+- Restart your PowerShell app and refresh the website.
+- Confirm the website reads Gemini AI.
+
+TO SUBMIT TO MINUTEHIRE:
+- Push code to GitHub WITHOUT .env
+- Deploy as a free Render Python web service (render.yaml included).
+- Put GEMINI_API_KEY in Render environment variables, not GitHub.
+- Test voice + follow-ups on your live HTTPS URL.
+- Submit THAT URL to MinuteHire. Your ZIP alone is NOT the required submission.
+
+For deployment / project structure / tests: read README.md.
+For a demo speech and interview answers: read SUBMISSION.md.
+
+UPGRADED GITHUB COMPONENTS:
+  - Hybrid TF-IDF + BM25 + RRF retrieval (Aayushyaash/Rag-chatbot MIT adaptation)
+  - Latency telemetry API: http://127.0.0.1:8000/api/latency/summary (lythelab MIT adaptation)
+  - See GITHUB_INTEGRATION.md and THIRD_PARTY_NOTICES.md
+
+NEW: DEPLOY_FREE.md contains steps to obtain a public URL; ASSESSMENT_CHECKLIST.md explains the assignment rubric.
+The integrated GitHub voice-agent conversation code is at app/integrations/conversation.py.
+Automated tests: 24 passed (provider/browser audio not verified with live credentials).
+
+SIMPLER CHAT UI (NEW):
+- Type into the bottom input, press Enter to send, Shift+Enter for a new line.
+- Tap the microphone in Chrome/Edge on localhost or HTTPS to ask by voice.
+- The reply streams gradually; tap Stop to interrupt.
+- The speaker button enables/mutes automatic spoken replies.
+- After an answer: copy it, replay voice, or inspect the RAG career sources.
+- My profile and Career library are in the left menu; on mobile, open the menu icon.
+- New chat clears conversation; refresh restores your current browser-session messages.

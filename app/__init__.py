@@ -1,0 +1,1 @@
+"""MinuteHire CareerVoice application."""

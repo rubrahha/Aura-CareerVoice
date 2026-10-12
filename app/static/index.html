@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Aura: voice-enabled, RAG-grounded career guidance for students.">
+  <title>Aura · Career counselor</title>
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <svg class="icon-defs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-message" viewBox="0 0 24 24"><path d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5H5l1.5-3.5A7.5 7.5 0 1 1 20 11.5Z"/></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3m-4 0h8"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M12 19V5m-6 6 6-6 6 6"/></symbol>
+    <symbol id="i-stop" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="2"/></symbol>
+    <symbol id="i-volume" viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5Zm4 4a5 5 0 0 1 0 6m3-9a9 9 0 0 1 0 12"/></symbol>
+    <symbol id="i-mute" viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5Zm4 4 6 8m0-8-6 8"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v17H6.5A2.5 2.5 0 0 0 4 22V5.5Zm0 14a2.5 2.5 0 0 1 2.5-2.5H20"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 21a7.5 7.5 0 0 1 15 0"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v.2"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  </svg>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+      <div class="sidebar-head">
+        <button class="brand" id="homeButton" aria-label="Return to Aura chat"><span class="logo-mark">✳</span><span>Aura</span></button>
+        <button class="icon-button mobile-only" id="closeSidebarButton" aria-label="Close menu"><svg><use href="#i-close"/></svg></button>
+      </div>
+      <button id="newChatButton" class="side-primary"><svg><use href="#i-plus"/></svg> New chat</button>
+      <div class="side-group">
+        <span class="side-label">Explore</span>
+        <button id="exploreButton" class="side-link"><svg><use href="#i-search"/></svg> Career library</button>
+        <button id="profileButton" class="side-link"><svg><use href="#i-user"/></svg> My profile</button>
+        <button id="aboutButton" class="side-link"><svg><use href="#i-info"/></svg> About this project</button>
+      </div>
+      <div class="sidebar-footer"><span class="status-dot" id="sidebarStatusDot"></span><span id="systemStatus">Connecting...</span><small>MinuteHire technical assessment</small></div>
+    </aside>
+    <div class="backdrop" id="sidebarBackdrop" hidden></div>
+
+    <div class="content-column">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button id="menuButton" class="icon-button mobile-only" aria-label="Open menu"><svg><use href="#i-menu"/></svg></button>
+          <div class="product-name">Aura <span>Career counselor</span></div>
+          <span class="mode-chip" id="modeChip">Connecting</span>
+        </div>
+        <div class="topbar-right">
+          <button id="soundButton" class="icon-button" title="Toggle spoken replies" aria-label="Mute spoken replies"><svg><use href="#i-volume"/></svg></button>
+          <button id="newChatTop" class="icon-button" title="New conversation" aria-label="New conversation"><svg><use href="#i-plus"/></svg></button>
+        </div>
+      </header>
+
+      <main class="chat-layout" id="mainChat" aria-label="Career counselor conversation">
+        <div class="chat-scroll" id="chatScroll">
+          <section class="empty-state" id="emptyState">
+            <div class="empty-logo">✳</div>
+            <h1>How can I help with your career?</h1>
+            <p>Ask a question or tap the microphone to talk.</p>
+            <div class="prompt-grid" id="suggestionArea">
+              <button data-question="I completed BCA and don't enjoy heavy coding. Which careers should I explore?">I don't like heavy coding <span>↗</span></button>
+              <button data-question="How do I become an AI engineer? Give me a beginner roadmap.">Roadmap to AI engineer <span>↗</span></button>
+              <button data-question="I'm interested in design and technology. What roles are right for me?">Design and technology careers <span>↗</span></button>
+              <button data-question="Can you help me find my strengths and pick a suitable career?">Help me choose a career <span>↗</span></button>
+            </div>
+          </section>
+          <div class="chat-messages" id="chatMessages" role="log" aria-label="Chat messages" aria-live="off"></div>
+          <div id="scrollAnchor"></div>
+        </div>
+
+        <div class="composer-region">
+          <div id="listeningIndicator" class="listening-indicator" role="status" hidden><span class="listening-pulse"></span> Listening — speak now. Tap the mic to stop.</div>
+          <div class="composer">
+            <textarea id="messageInput" aria-label="Ask a career question" rows="1" maxlength="1600" placeholder="Ask anything about your career..."></textarea>
+            <div class="composer-row">
+              <div class="composer-tools">
+                <button id="micButton" class="icon-button mic-button" aria-label="Start voice recording" title="Use microphone"><svg><use href="#i-mic"/></svg></button>
+                <span class="mic-hint" id="micHint">Voice</span>
+              </div>
+              <button id="sendButton" class="send-button" aria-label="Send message" title="Send message"><svg><use href="#i-arrow"/></svg></button>
+              <button id="stopButton" class="send-button stop-button" aria-label="Stop generating" title="Stop generating" hidden><svg><use href="#i-stop"/></svg></button>
+            </div>
+          </div>
+          <div class="footer-hint" id="footerHint">Answers use a career knowledge base. AI can make mistakes; verify important decisions.</div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="modalBackdrop" hidden>
+    <section class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-header"><h2 id="modalTitle"></h2><button id="closeModal" class="icon-button" aria-label="Close dialog"><svg><use href="#i-close"/></svg></button></div>
+      <div class="modal-body" id="modalContent"></div>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

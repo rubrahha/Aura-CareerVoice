@@ -1,0 +1,16 @@
+# Never commit personal or API credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.coverage
+.DS_Store
+node_modules/
+.idea/
+.vscode/
